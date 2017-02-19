@@ -1,0 +1,18 @@
+{
+  "name": "format-string",
+  "version": "1.0.0",
+  "description": "Easy string format for javascript",
+  "main": "format-string.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "string",
+    "format",
+    "string",
+    "format",
+    "kisphp"
+  ],
+  "author": "Bogdan Rizac <mariusbogdan83@gmail.com> (http://www.kisphp.com)",
+  "license": "MIT"
+}
