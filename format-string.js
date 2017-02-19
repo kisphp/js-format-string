@@ -13,5 +13,3 @@ String.prototype.formatString = function(){
         return args[index];
     });
 };
-
-exports.String;
