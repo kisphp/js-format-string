@@ -1,6 +1,6 @@
 {
   "name": "kisphp-format-string",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Easy string format for javascript",
   "main": "format-string.js",
   "scripts": {
