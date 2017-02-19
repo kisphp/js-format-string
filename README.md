@@ -15,7 +15,7 @@ npm install --save kisphp-format-string
 require('kisphp-format-string');
 
 // or simply include the js file in your browser
-// <script async src="node_modules/kisphp-format-string/format-string.js"></script>
+// <script async src="node_modules/kisphp-format-string/src/format-string.js"></script>
 ```
 
 ## Usage
@@ -26,17 +26,17 @@ var data = {
     info: "Software Engineer"
 };
 
-var tpl = '<div><h3>{name}</h3><h5>{info}</h5></div>';
-var tpl2 = '<div><h3>{0}</h3><h5>{1}</h5></div>';
+var template_1 = '<div><h3>{name}</h3><h5>{info}</h5></div>';
+var template_2 = '<div><h3>{0}</h3><h5>{1}</h5></div>';
 
 // use with object 
-console.log(tpl.formatString(data));
+console.log(template_1.formatString(data));
 
 // use with direct elements
-console.log(tpl2.formatString(data.name, data.info));
+console.log(template_2.formatString(data.name, data.info));
 
 // use with array
-console.log(tpl2.formatString([
+console.log(template_2.formatString([
     data.name, 
     data.info
 ]));

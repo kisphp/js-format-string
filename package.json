@@ -1,10 +1,10 @@
 {
   "name": "kisphp-format-string",
-  "version": "1.0.1",
+  "version": "1.1.0",
   "description": "Easy string format for javascript",
-  "main": "format-string.js",
+  "main": "src/format-string.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "mocha test"
   },
   "keywords": [
     "string",
@@ -14,5 +14,9 @@
     "kisphp"
   ],
   "author": "Bogdan Rizac <mariusbogdan83@gmail.com> (http://www.kisphp.com)",
-  "license": "MIT"
+  "license": "MIT",
+  "devDependencies": {
+    "mocha": "^3.2.0",
+    "unit.js": "^2.0.0"
+  }
 }
