@@ -1,5 +1,7 @@
 # Javascript Format String
 
+[![Build Status](https://travis-ci.org/kisphp/js-format-string.svg?branch=master)](https://travis-ci.org/kisphp/js-format-string)
+
 This repository started as a need to replace text in javascript 
 in tiny templates without a framework.
 
