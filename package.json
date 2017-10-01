@@ -15,6 +15,7 @@
   ],
   "author": "Bogdan Rizac <mariusbogdan83@gmail.com> (http://www.kisphp.com)",
   "license": "MIT",
+  "repository": "git@github.com:kisphp/js-format-string.git",
   "devDependencies": {
     "mocha": "^3.2.0",
     "unit.js": "^2.0.0"
