@@ -1,10 +1,11 @@
+'use strict';
+
 String.prototype.formatString = function(){
     // get function arguments
-    var args;
+    let args;
+    args = arguments;
     if (typeof arguments[0] === 'object') {
         args = arguments[0];
-    } else {
-        args = arguments;
     }
 
     // replace variables in string

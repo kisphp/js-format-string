@@ -1,3 +1,5 @@
+'use strict';
+
 let test = require('unit.js');
 
 require('../src/format-string.js');
